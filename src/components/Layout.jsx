@@ -1,5 +1,4 @@
 import XarrowContext from "react-xarrows";
-
 const XarrowFaculty = () => {
   return (
     <>
@@ -178,7 +177,7 @@ export default function Layout() {
       <div className="mt-12" id="point-1"></div>
       <div className="mt-12 flex w-full items-center justify-between">
         <img id="pres1" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="1" />
-        <p id="pres" className="border-2  p-2">
+        <p id="pres" className="border-2  p-2"> 
           President
         </p>
         <img id="pres2" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="2" />
