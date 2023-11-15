@@ -1,4 +1,5 @@
 import XarrowContext from "react-xarrows";
+import Card from "./Card/Card";
 import "./Layout.css";
 const XarrowFaculty = () => {
   return (
