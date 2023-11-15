@@ -1,4 +1,5 @@
 import XarrowContext from "react-xarrows";
+import "./Layout.css";
 const XarrowFaculty = () => {
   return (
     <>
@@ -168,7 +169,7 @@ const XarrowMisc = () => {
 };
 export default function Layout() {
   return (
-    <div className=" flex flex-col h-screen items-center justify- start max-w-4xl  mx-auto ">
+    <div className=" flex flex-col h-screen items-center justify- start max-w-full px-40 mt-10  mx-auto ">
       <div className="flex justify-between w-full">
         <img id="f1" src="https://picsum.photos/300" className="w-[300px] h-[300px]"alt="1" />
 
@@ -177,14 +178,14 @@ export default function Layout() {
       <div className="mt-12" id="point-1"></div>
       <div className="mt-12 flex w-full items-center justify-between">
         <img id="pres1" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="1" />
-        <p id="pres" className="border-2  p-2"> 
+        <p id="pres" className="border-2  p-2 tab"> 
           President
         </p>
         <img id="pres2" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="2" />
       </div>
       <div className="mt-12 flex w-full items-center justify-between">
         <img id="vpres1" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="1" />
-        <p id="vpres" className="border-2  p-2">
+        <p id="vpres" className="border-2  p-2 tab">
           Vice President
         </p>
         <img id="vpres2" src="https://picsum.photos/300"  className="w-[300px] h-[300px]" alt="2" />
@@ -192,13 +193,13 @@ export default function Layout() {
       <div className="mt-12" id="point-2" />
       <div className="mt-12" id="point-3" />
       <div className=" grid grid-cols-3 gap-6 mt-12 items-center justify-items-center w-full">
-        <p className="border-2 p-2" id="mentors">
-          Mentors
+        <p className="border-2 p-2 tab" id="mentors">
+          Junior Mentors
         </p>
-        <p className="border-2 p-2" id="sec">
+        <p className="border-2 p-2 tab" id="sec">
           Secretary
         </p>
-        <p className="border-2 p-2" id="event">
+        <p className="border-2 p-2 tab" id="event">
           Events
         </p>
       </div>
