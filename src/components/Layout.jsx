@@ -121,7 +121,7 @@ const XarrowMisc = () => {
         start="sm4"
         end="point-3"
       />
-     <XarrowContext
+      <XarrowContext
         showTail={false}
         path="grid"
         startAnchor={"bottom"}
@@ -131,27 +131,29 @@ const XarrowMisc = () => {
         curveness={0}
         start="sm5"
         end="point-3"
-      /> <XarrowContext
-      showTail={false}
-      path="grid"
-      startAnchor={"bottom"}
-      endAnchor={"top"}
-      showHead={false}
-      animateDrawing={true}
-      curveness={0}
-      start="sm6"
-      end="point-3"
-    />  <XarrowContext
-    showTail={false}
-    path="grid"
-    startAnchor={"bottom"}
-    endAnchor={"top"}
-    showHead={false}
-    animateDrawing={true}
-    curveness={0}
-    start="point-3"
-    end="point-4"
-  />
+      /> 
+      <XarrowContext
+        showTail={false}
+        path="grid"
+        startAnchor={"bottom"}
+        endAnchor={"top"}
+        showHead={false}
+        animateDrawing={true}
+        curveness={0}
+        start="sm6"
+        end="point-3"
+      /> 
+      <XarrowContext
+        showTail={false}
+        path="grid"
+        startAnchor={"bottom"}
+        endAnchor={"top"}
+        showHead={false}
+        animateDrawing={true}
+        curveness={0}
+        start="point-3"
+        end="point-4"
+      />
       <XarrowContext
         showTail={false}
         path="grid"
@@ -203,8 +205,7 @@ const XarrowSeniorMentor = () => {
         start="vpres"
         end="smentor"
       />
-     
-<XarrowContext
+    <XarrowContext
         showTail={false}
         path="grid"
         startAnchor={"bottom"}
@@ -215,7 +216,7 @@ const XarrowSeniorMentor = () => {
         start="smentor"
         end="sm1"
       />
-     <XarrowContext
+    <XarrowContext
       showTail={false}
       path="grid"
       startAnchor={"bottom"}
@@ -225,7 +226,8 @@ const XarrowSeniorMentor = () => {
       curveness={0}
       start="smentor"
       end="sm2"
-    /><XarrowContext
+    />
+    <XarrowContext
     showTail={false}
     path="grid"
     startAnchor={"bottom"}
@@ -235,8 +237,8 @@ const XarrowSeniorMentor = () => {
     curveness={0}
     start="smentor"
     end="sm3"
-  />
-  <XarrowContext
+    />
+    <XarrowContext
         showTail={false}
         path="grid"
         startAnchor={"bottom"}
@@ -247,7 +249,7 @@ const XarrowSeniorMentor = () => {
         start="sm1"
         end="sm4"
       />
-     <XarrowContext
+    <XarrowContext
       showTail={false}
       path="grid"
       startAnchor={"bottom"}
@@ -257,17 +259,18 @@ const XarrowSeniorMentor = () => {
       curveness={0}
       start="sm2"
       end="sm5"
-    /><XarrowContext
-    showTail={false}
-    path="grid"
-    startAnchor={"bottom"}
-    endAnchor={"top"}
-    showHead={false}
-    animateDrawing={true}
-    curveness={0}
-    start="sm3"
-    end="sm6"
-  />
+    />
+    <XarrowContext
+      showTail={false}
+      path="grid"
+      startAnchor={"bottom"}
+      endAnchor={"top"}
+      showHead={false}
+      animateDrawing={true}
+      curveness={0}
+      start="sm3"
+      end="sm6"
+    />
     </>
   )
 }
@@ -278,51 +281,39 @@ export default function Layout() {
       <div className="flex justify-between w-full">
         <Card
           id="f1"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="1"
         />
 
         <Card
           id="f2"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="2"
         />
       </div>
       <div className="mt-12" id="point-1"></div>
-      <div className="mt-12 flex w-full items-center justify-between">
-        <img
+      <div className="mt-12 flex w-full items-center align-middle justify-between">
+        <Card
           id="pres1"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="1"
         />
         <p id="pres" className="border-2  p-2 tab">
           President
         </p>
-        <img
+        <Card
           id="pres2"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="2"
         />
       </div>
-      <div className="mt-12 flex w-full items-center justify-between">
-        <img
+      <div className="mt-12 flex w-full items-center align-middle justify-between">
+        <Card
           id="vpres1"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="1"
         />
         <p id="vpres" className="border-2  p-2 tab">
           Vice President
         </p>
-        <img
+        <Card
           id="vpres2"
-          src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
-          alt="2"
         />
       </div>
 
@@ -332,20 +323,20 @@ export default function Layout() {
         Senior Mentors
         </p>    
         </div>
-         <div className="flex w-full justify-between mt-12">
-          <img
+        <div className="flex w-full justify-between mt-12">
+          <Card
             id="sm1"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
             alt="1"
           />
-          <img
+          <Card
             id="sm2"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
             alt="1"
           />
-          <img
+          <Card
             id="sm3"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
@@ -353,19 +344,19 @@ export default function Layout() {
           />
         </div>
         <div className="flex w-full justify-between " >
-          <img
+          <Card
             id="sm4"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
             alt="1"
           />
-          <img
+          <Card
             id="sm5"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
             alt="1"
           />
-          <img
+          <Card
             id="sm6"
             src="https://picsum.photos/300"
             className="w-[300px] h-[300px]"
@@ -376,7 +367,7 @@ export default function Layout() {
       <div className="mt-24" id="point-3" />
 
       <div className="mt-12" id="point-4" />
-      <div className=" grid grid-cols-3 gap-6 mt-12 items-center justify-items-center w-full">
+      <div className=" grid grid-cols-3 gap-6 mt-12 items-center justify-items-center w-full pb-10">
         <p className="border-2 p-2 tab" id="mentors">
           Junior Mentors
         </p>
