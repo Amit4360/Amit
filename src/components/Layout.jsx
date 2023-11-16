@@ -277,7 +277,7 @@ const XarrowSeniorMentor = () => {
 
 export default function Layout() {
   return (
-    <div className=" flex flex-col h-screen items-center justify- start max-w-full px-40 mt-10  mx-auto ">
+    <div className=" flex flex-col h-screen items-center justify-start max-w-full px-40 mt-10  mx-auto ">
       <div className="flex justify-between w-full">
         <Card
           id="f1"
