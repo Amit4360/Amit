@@ -6,10 +6,10 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-export default function Card() {
+export default function Card({id}) {
   return (
     <>
-      <div className="card">
+      <div className="card" id={id}>
         <img src={Head} alt="" className="img" draggable={false} />
         <div className="container">
           <h1 className="title">Isha Patade</h1>
