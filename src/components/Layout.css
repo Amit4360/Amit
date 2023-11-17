@@ -1,0 +1,44 @@
+.tab {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.tab:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+
+.disNone{
+    display: none !important;
+}
+
+.disApp{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    justify-items: center; 
+    align-items: center; 
+    width: 100%; 
+    margin-top: 30px;
+    padding: 0px 30px;
+    background-color: radial-gradient(
+        circle,
+        rgb(144, 120, 191) 16%,
+        rgb(15, 2, 26) 100%);
+    background: radial-gradient(
+        circle,
+        rgba(9, 3, 14, 1) 16%,
+        rgba(49, 32, 84, 1)  100%);
+    border-radius: 30px;
+}
+
