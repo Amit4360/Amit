@@ -353,8 +353,8 @@ export default function Layout() {
 
 
   return (
-    <div className=" flex flex-col h-screen items-center justify- start max-w-full px-40 mt-10  mx-auto ">
-      <div className="flex justify-between w-full">
+    <div className=" flex flex-col h-screen items-center justify-start max-w-full px-40 mt-10  mx-auto ">
+      <div className="mt-[15vh] flex justify-between w-full">
         <Card
           id="f1"
           src="https://picsum.photos/300"
@@ -369,15 +369,16 @@ export default function Layout() {
           alt="2"
         />
       </div>
-      <div className="mt-12" id="point-1"></div>
-      <div className="mt-12 flex w-full items-center justify-between">
+      <div className="mt-[15vh]" id="point-1"></div>
+      <div className="mt-[15vh] flex w-full items-center justify-between">
         <Card
           id="pres1"
           src="https://picsum.photos/300"
-          className="w-[300px] h-[300px]"
+          className="w-[300px] h-[300px] "
           alt="1"
         />
-        <p id="pres" className="border-2  p-2 tab">
+
+        <p id="pres" className="border-2  p-2  tab">
           President
         </p>
         <Card
@@ -387,7 +388,7 @@ export default function Layout() {
           alt="1"
         />
       </div>
-      <div className="mt-12 flex w-full items-center justify-between">
+      <div className="mt-[15vh] flex w-full items-center justify-between">
       <Card
           id="vpres1"
           src="https://picsum.photos/300"
@@ -405,13 +406,13 @@ export default function Layout() {
         />
       </div>
 
-      <div className="flex flex-col   w-full gap-12">
+      <div className="flex flex-col mt-[15vh]  w-full gap-12">
         <div className="flex items-center justify-center">
         <p id="smentor" className="border-2  p-2 tab">
         Senior Mentors
         </p>    
         </div>
-         <div className="flex w-full justify-between mt-12">
+         <div className="flex w-full justify-between mt-[15vh]">
          <Card
           id="sm1"
           src="https://picsum.photos/300"
@@ -452,9 +453,9 @@ export default function Layout() {
         />
         </div>
       </div>
-      <div className="mt-24" id="point-3" />
+      <div className="mt-[15vh]" id="point-3" />
 
-      <div className="mt-12" id="point-4" />
+      <div className="" id="point-4" />
       <div className="divSize1">
       <div className=" grid grid-cols-3 gap-6 mt-12 items-center justify-items-center w-full">
       <div>
