@@ -13,6 +13,7 @@ const XarrowFaculty = () => {
         curveness={0}
         path="grid"
         animateDrawing={true}
+        color="white"
         start="f1"
         end="point-1"
       />
@@ -23,6 +24,8 @@ const XarrowFaculty = () => {
         endAnchor={"bottom"}
         showHead={false}
         animateDrawing={true}
+        color="white"
+
         curveness={0}
         start="point-1"
         end="f2"
@@ -41,6 +44,8 @@ const XarrowPresident = () => {
         showHead={false}
         animateDrawing={true}
         curveness={0}
+        color="white"
+
         start="point-1"
         end="pres"
       />
@@ -52,6 +57,8 @@ const XarrowPresident = () => {
         showHead={false}
         animateDrawing={true}
         curveness={0}
+        color="white"
+
         start="pres"
         end="pres1"
       />
@@ -63,6 +70,8 @@ const XarrowPresident = () => {
         showHead={false}
         animateDrawing={true}
         curveness={0}
+        color="white"
+
         start="pres"
         end="pres2"
       />
@@ -79,6 +88,8 @@ const XarrowVPresident = () => {
         endAnchor={"top"}
         showHead={false}
         animateDrawing={true}
+        color="white"
+
         curveness={0}
         start="pres"
         end="vpres"
@@ -91,6 +102,8 @@ const XarrowVPresident = () => {
         showHead={false}
         animateDrawing={true}
         curveness={0}
+        color="white"
+
         start="vpres"
         end="vpres1"
       />
@@ -98,6 +111,8 @@ const XarrowVPresident = () => {
         showTail={false}
         path="grid"
         startAnchor={"right"}
+        color="white"
+
         endAnchor={"left"}
         showHead={false}
         animateDrawing={true}
@@ -116,6 +131,8 @@ const XarrowMisc = () => {
         path="grid"
         startAnchor={"bottom"}
         endAnchor={"top"}
+        color="white"
+
         showHead={false}
         animateDrawing={true}
         curveness={0}
@@ -128,6 +145,8 @@ const XarrowMisc = () => {
         startAnchor={"bottom"}
         endAnchor={"top"}
         showHead={false}
+        color="white"
+
         animateDrawing={true}
         curveness={0}
         start="sm5"
@@ -138,6 +157,8 @@ const XarrowMisc = () => {
       startAnchor={"bottom"}
       endAnchor={"top"}
       showHead={false}
+      color="white"
+
       animateDrawing={true}
       curveness={0}
       start="sm6"
@@ -149,6 +170,8 @@ const XarrowMisc = () => {
     endAnchor={"top"}
     showHead={false}
     animateDrawing={true}
+    color="white"
+
     curveness={0}
     start="point-3"
     end="point-4"
@@ -159,6 +182,8 @@ const XarrowMisc = () => {
         startAnchor={"bottom"}
         endAnchor={"top"}
         showHead={false}
+        color="white"
+
         animateDrawing={true}
         curveness={0}
         start="point-4"
@@ -172,6 +197,8 @@ const XarrowMisc = () => {
         showHead={false}
         animateDrawing={true}
         curveness={0}
+        color="white"
+
         start="point-4"
         end="mentors"
       />{" "}
@@ -180,6 +207,8 @@ const XarrowMisc = () => {
         path="grid"
         startAnchor={"right"}
         endAnchor={"top"}
+        color="white"
+
         showHead={false}
         animateDrawing={true}
         curveness={0}
@@ -197,6 +226,8 @@ const XarrowSeniorMentor = () => {
         showTail={false}
         path="grid"
         startAnchor={"bottom"}
+        color="white"
+
         endAnchor={"top"}
         showHead={false}
         animateDrawing={true}
@@ -211,6 +242,8 @@ const XarrowSeniorMentor = () => {
         startAnchor={"bottom"}
         endAnchor={"top"}
         showHead={false}
+        color="white"
+
         animateDrawing={true}
         curveness={0}
         start="smentor"
@@ -222,6 +255,8 @@ const XarrowSeniorMentor = () => {
       startAnchor={"bottom"}
       endAnchor={"top"}
       showHead={false}
+      color="white"
+
       animateDrawing={true}
       curveness={0}
       start="smentor"
@@ -233,6 +268,8 @@ const XarrowSeniorMentor = () => {
     endAnchor={"top"}
     showHead={false}
     animateDrawing={true}
+    color="white"
+
     curveness={0}
     start="smentor"
     end="sm3"
@@ -244,6 +281,8 @@ const XarrowSeniorMentor = () => {
         endAnchor={"top"}
         showHead={false}
         animateDrawing={true}
+        color="white"
+
         curveness={0}
         start="sm1"
         end="sm4"
@@ -254,6 +293,8 @@ const XarrowSeniorMentor = () => {
       startAnchor={"bottom"}
       endAnchor={"top"}
       showHead={false}
+      color="white"
+
       animateDrawing={true}
       curveness={0}
       start="sm2"
@@ -261,6 +302,8 @@ const XarrowSeniorMentor = () => {
     /><XarrowContext
     showTail={false}
     path="grid"
+    color="white"
+
     startAnchor={"bottom"}
     endAnchor={"top"}
     showHead={false}
@@ -349,12 +392,14 @@ export default function Layout() {
         setCheck(!check)
       }
     })
+
+    //remove the event listeners from useEffect
   },[check]);
 
 
   return (
-    <div className=" flex flex-col h-screen items-center justify-start max-w-full px-40 mt-10  mx-auto ">
-      <div className="mt-[15vh] flex justify-between w-full">
+    <div className=" flex flex-col h-screen items-center justify-start max-w-full px-2 sm:px-2 lg:w-4/5 2xl:w-3/5 lg:mt-10  mx-auto ">
+      <div className="lg:mt-[15vh] md:grid-cols-2 mt-6 grid gap-2 justify-items-center lg:flex lg:justify-between w-full">
         <Card
           id="f1"
           src="https://picsum.photos/300"
@@ -369,8 +414,11 @@ export default function Layout() {
           alt="2"
         />
       </div>
-      <div className="mt-[15vh]" id="point-1"></div>
-      <div className="mt-[15vh] flex w-full items-center justify-between">
+      <div className="lg:mt-[15vh] mt-6" id="point-1"></div>
+      <p  className="border-2  p-2  tab lg:hidden">
+          President
+        </p>
+      <div className="lg:mt-[15vh] mt-6 md:grid-cols-2 grid gap-4 lg:flex justify-items-center lg:items-center lg:justify-between w-full">
         <Card
           id="pres1"
           src="https://picsum.photos/300"
@@ -378,24 +426,27 @@ export default function Layout() {
           alt="1"
         />
 
-        <p id="pres" className="border-2  p-2  tab">
+        <p id="pres" className="border-2  p-2  tab hidden lg:block">
           President
         </p>
-        <Card
+        <Card 
           id="pres2"
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
         />
       </div>
-      <div className="mt-[15vh] flex w-full items-center justify-between">
+      <p  className="border-2 lg:mt-[15vh] mt-6 p-2 tab lg:hidden ">
+          Vice President
+        </p>
+      <div className="lg:mt-[15vh] mt-6 md:grid-cols-2 grid gap-4 lg:flex lg:items-center justify-items-center lg:justify-between w-full">
       <Card
           id="vpres1"
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
         />
-        <p id="vpres" className="border-2  p-2 tab">
+        <p id="vpres" className="border-2 text-center  p-2 tab hidden lg:block">
           Vice President
         </p>
         <Card
@@ -406,15 +457,16 @@ export default function Layout() {
         />
       </div>
 
-      <div className="flex flex-col mt-[15vh]  w-full gap-12">
+      <div className="flex flex-col lg:mt-[15vh] mt-6 w-full gap-12">
         <div className="flex items-center justify-center">
         <p id="smentor" className="border-2  p-2 tab">
         Senior Mentors
         </p>    
         </div>
-         <div className="flex w-full justify-between mt-[15vh]">
+         <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-items-center w-full gap-5 lg:mt-[15vh] mt-6">
          <Card
           id="sm1"
+          color
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
@@ -431,27 +483,25 @@ export default function Layout() {
           className="w-[300px] h-[300px]"
           alt="1"
         />
-        </div>
-        <div className="flex w-full justify-between " >
         <Card
           id="sm4"
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
-        />
+          />
           <Card
           id="sm5"
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
-        />
+          />
           <Card
           id="sm6"
           src="https://picsum.photos/300"
           className="w-[300px] h-[300px]"
           alt="1"
-        />
-        </div>
+          />
+          </div>
       </div>
       <div className="mt-[15vh]" id="point-3" />
 
@@ -459,19 +509,19 @@ export default function Layout() {
       <div className="divSize1">
       <div className=" grid grid-cols-3 gap-6 mt-12 items-center justify-items-center w-full">
       <div>
-        <p className="border-2 p-2 tab" id="mentors">
+        <p className="border-2 p-2 text-sm tab" id="mentors">
           Junior Mentors
         </p>
        
         </div>
         <div>
-        <p className="border-2 p-2 tab" id="sec">
+        <p className="border-2 p-2 tab text-sm" id="sec">
           Secretary
         </p>
        
         </div>
         <div>
-        <p className="border-2 p-2 tab" id="event">
+        <p className="border-2 p-2 tab text-sm " id="event">
           Events
         </p>
         
@@ -593,11 +643,14 @@ export default function Layout() {
       </div>
       </div>
 
+    <div className="hidden lg:block">
+
       <XarrowFaculty />
       <XarrowPresident />
       <XarrowVPresident />
       <XarrowSeniorMentor />
       <XarrowMisc />
+    </div>
     </div>
   );
 }
