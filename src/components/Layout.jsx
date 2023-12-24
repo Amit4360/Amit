@@ -1,10 +1,13 @@
 import XarrowContext from "react-xarrows";
 import Card from "./Card/Card";
-import Head from "./Head.png";
-import { Link } from "react-router-dom";
+import Technical from "./Technical";
+import Publicity from "./Publicity";
+import Logistics from "./Logistics";
+import Marketing from "./Marketing";
+import Creatives from "./Creatives";
 import "./Layout.css";
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Outlet, NavLink, useNavigate, createBrowserRouter, createRoutesFromElements, RouterProvider} from "react-router-dom";
 import {faculty,prez1, prez2,vprez1, vprez2,secretary, juniorMentor, seniorMentor, seniorMentor2, techHeads, marketingHeads, pubsHeads, logiHeads, creativeHeads, tech, marketing, pubs, logi, creatives,  } from "./Card/initdata";
 
 
@@ -326,6 +329,12 @@ const XarrowSeniorMentor = () => {
 
 export default function Layout() {
 
+  let nav1 = useNavigate();
+
+  let constN = () => {
+    nav1("/Technical")
+  }
+
   const [check, setCheck] = useState(true)
 
   useEffect(() => {
@@ -418,6 +427,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -437,6 +447,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -453,6 +464,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -471,6 +483,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -487,6 +500,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -508,7 +522,8 @@ console.log(Image);
              pos={data.Position}
              insta={data.Instagram}
              git={data.Github} 
-             lin={data.LinkedIn} 
+             lin={data.LinkedIn}
+             email={data.Email} 
           />
           ))
         }
@@ -525,6 +540,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -565,6 +581,7 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
@@ -580,31 +597,23 @@ console.log(Image);
              insta={data.Instagram}
              git={data.Github} 
              lin={data.LinkedIn} 
+             email={data.Email}
           />
           ))
         }
       </div>
+
         <div className=" disNone grid py-10 mb-10 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-full gap-5 lg:mt-[15vh] mt-6" id="disEvent">
-         <Card
-          id="sm1"
-          color
-        />
-          <Card
-          id="sm2"
-        />
-          <Card
-          id="sm3"
-        />
-        <Card
-          id="sm4"
-          />
-          <Card
-          id="sm5"
-          />
-          <Card
-          id="sm6"
-          />
-          </div>
+          <nav id="nav">
+          <NavLink to={'/Technical'}>Technical</NavLink>
+          <NavLink to={'/Creatives'}>Creatives</NavLink>
+          <NavLink to={'/Publicity'}>Publicity</NavLink>
+          <NavLink to={'/Marketing'}>Marketing</NavLink>
+          <NavLink to={'/Logistics'}>Logistics</NavLink>
+          </nav>
+
+          <Outlet/>
+        </div>
       </div>
 
     <div className="hidden lg:block">

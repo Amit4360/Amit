@@ -298,7 +298,7 @@ export const techHeads = [
     Name: "Vedant Kesharia",
     Email: "keshariavedant@gmail.com",
     Position: "Technical Head",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/VedantKesharia.png",
     Github: "https://github.com/vedantkesharia",
     LinkedIn: "https://www.linkedin.com/in/vedant-kesharia-556603235",
     Instagram: "https://instagram.com/vedantkesharia?igshid=M2RkZGJiMzhjOQ==",
@@ -307,7 +307,7 @@ export const techHeads = [
   {
     Email: "gurjit9320@gmail.com",
     Name: "Gurjit Singh",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/GurjitSingh.png",
     Position: "Technical Head",
     Github: "https://github.com/Gurjit11",
     LinkedIn: "https://www.linkedin.com/in/gurjit-singh-1164a0235/",
@@ -316,7 +316,7 @@ export const techHeads = [
   {
     Email: "ishaapatade14@gmail.com",
     Name: "Isha Patad",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/IshaPatade.png",
     Position: "Technical Head",
     Github: "https://github.com/IshaPatade",
     LinkedIn: "https://www.linkedin.com/in/isha-patade-096226252",
@@ -325,7 +325,7 @@ export const techHeads = [
   {
     Email: "rhythmshah21@gmail.com",
     Name: "Rhythm Shah",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/RhythmShah.png",
     Position: "Technical Head",
     Github: "https://github.com/Rhythmshah21",
     LinkedIn: "https://www.linkedin.com/in/rhythm-shah-7948b6229/",
@@ -337,7 +337,7 @@ export const marketingHeads = [
   {
     Email: "jeet.doshi.djsce@gmail.com",
     Name: "Jeet Doshi",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/JeetDoshi.png",
     Position: "Marketing Head",
     Github: "https://github.com/jeet-doshi/",
     LinkedIn: "https://www.linkedin.com/in/jeet-doshi-4a26801a7",
@@ -346,7 +346,7 @@ export const marketingHeads = [
   {
     Email: "khushishah2443@gmail.com",
     Name: "Khushi Shah",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/KhushiShah.png",
     Position: "Marketing Head",
     Github: "https://github.com/khushishah2443",
     LinkedIn: "https://www.linkedin.com/in/khushi-shah-600744235/",
@@ -358,20 +358,30 @@ export const pubsHeads = [
   {
     Email: "tanvibhide007@gmail.com",
     Name: "Tanvi Bhide",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/TanviBhide.png",
     Position: "Publicity Head",
     Github: "https://github.com/tabss007",
     LinkedIn: "http://linkedin.com/in/tabss",
     Instagram:
       "https://instagram.com/tabss_007?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr",
   },
+  {
+    Email: "tanvibhide007@gmail.com",
+    Name: "Ayushi",
+    Image: "./src/components/Card/images/TanviBhide.png",
+    Position: "Publicity Head",
+    Github: "https://github.com/tabss007",
+    LinkedIn: "http://linkedin.com/in/tabss",
+    Instagram:
+      "https://instagram.com/tabss_007?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr",
+  }
 ];
 
 export const logiHeads = [
   {
     Email: "shahjeet64@gmail.com",
     Name: "Jeet Shah",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/JeetShah.png",
     Position: "Logistics Head",
     Github: "https://github.com/Jeet2703",
     LinkedIn: "https://www.linkedin.com/in/jeet-shah-79672a1a3/",
@@ -381,7 +391,7 @@ export const logiHeads = [
   {
     Email: "shah.jay.jayesh03@gmail.com",
     Name: "Jay Shah",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/JayShah.png",
     Position: "Logistics Head",
     Github: "https://github.com/jayshah1473",
     LinkedIn:
@@ -394,7 +404,7 @@ export const creativeHeads = [
   {
     Email: "kritiderasadi1710@gmail.com",
     Name: "Kriti Derasad",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/KritiDerasadi.png",
     Position: "Creative Head",
     Github: "https://github.com/Kderasad",
     LinkedIn: "https://www.linkedin.com/in/kriti-derasadi-1086b522a/",
@@ -403,7 +413,7 @@ export const creativeHeads = [
   {
     Email: "tirth9619@gmail.com",
     Name: "Tirth Parekh",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/TirthParekh.png",
     Position: "Creative Head",
     Github: "https://github.com/tirth-h/",
     LinkedIn: "linkedin.com/in/tirth-ketan-parekh/",
@@ -412,7 +422,7 @@ export const creativeHeads = [
   {
     Email: "siddiquifahad256@gmail.com",
     Name: "Fahad Siddiqui",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/FAHADSIDDIQUI.png",
     Position: "Creative Head",
     Github: "https://github.com/fahad2310",
     LinkedIn: "https://www.linkedin.com/in/fahad-siddiqui-79382422a",
@@ -423,9 +433,31 @@ export const creativeHeads = [
 
 export const tech = [
   {
+    Email: "amitu43604@gmail.com",
+    Name: "Amit Upadhyay",
+    Image: "./src/components/Card/images/AmitUpadhyay.png",
+    Position: "Technical Co-Com",
+    Github: "https://github.com/Amit4360",
+    LinkedIn:
+      "https://www.linkedin.com/in/amit-upadhyay-3188b1257/",
+    Instagram:
+      "https://www.instagram.com/_a.m.i.t_u/",
+  },
+  {
+    Email: "aryansingh.as235@gmail.com",
+    Name: "Aryan Singh",
+    Image: "./src/components/Card/images/AryanSingh.png",
+    Position: "Technical Co-Com",
+    Github: "https://github.com/Aryan-webp",
+    LinkedIn:
+      "https://www.linkedin.com/in/aryan-singh-348277299/",
+    Instagram:
+      "https://www.instagram.com/aryan.webp/",
+  },
+  {
     Email: "shah.priyansh04@gmail.com",
     Name: "Priyansh Shah",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/PriyanshShah.png",
     Position: "Technical Co-Com",
     Github: "github.com/shahpriyansh0",
     LinkedIn:
@@ -437,18 +469,18 @@ export const tech = [
   {
     Email: "dharamehta012@gmail.com",
     Name: "Dhara Mehta",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/DharaMehta.png",
     Position: "Technical Co-Com",
     Github: "https://github.com/dharamehtaa",
     LinkedIn:
       "https://www.linkedin.com/in/dhara-mehta-85472b252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Instagram: "https://instagram.com/_dhara.mehta_?igshid=MTk0NTkyODZkYg==",
+    Instagram: "https://instagram.com/dhara.mehta?igshid=MTk0NTkyODZkYg==",
   },
 
   {
     Email: "akshaykulkarni3467@gmail.com",
     Name: "Akshay Kulkarni",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/AkshayKulkarni.png",
     Position: "Technical Co-Com",
     Github: "https://github.com/AkshayKulkarni3467",
     LinkedIn:
@@ -461,7 +493,7 @@ export const marketing = [
   {
     Email: "tanishakanal@gmail.com",
     Name: "Tanisha Kanal",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/TanishaKanal.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/tanisha0605",
     LinkedIn: "https://www.linkedin.com/in/tanisha-kanal-0605m2004/",
@@ -471,7 +503,7 @@ export const marketing = [
   {
     Email: "prathm2509@gmail.com",
     Name: "Prathmesh Kulkarni",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/PrathmeshKulkarni.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/prathm2509",
     LinkedIn: "www.linkedin.com/in/prathmesh-kulkarni-658a152a1",
@@ -480,7 +512,7 @@ export const marketing = [
   {
     Email: "Kunal.murudkar305@svkmmumbai.onmicrosoft.com",
     Name: "Kunal Mangesh Murudkar",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/KunalMurudkar.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/KunalMurudkar",
     LinkedIn:
@@ -490,7 +522,7 @@ export const marketing = [
   {
     Email: "vedicaam80@gmail.com",
     Name: "vedica mrudul",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/VedicaMrudul.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/vedicamrudul",
     LinkedIn: "www.linkedin.com/in/vedica-mrudul",
@@ -500,6 +532,7 @@ export const marketing = [
   {
     Email: "rushanknaik2005@gmail.com",
     Name: "Rushank naik ",
+    // No Image
     Image: "./src/components/Card/images/Prachi.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/settings/profile",
@@ -511,7 +544,7 @@ export const marketing = [
   {
     Email: "nikunjraikundliya7@gmail.com",
     Name: "Nikunj J Raikundliya",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/NikunjRaikundliya.png",
     Position: "Marketing CO-Com",
     Github: "https://github.com/nikunjraykundlia",
     LinkedIn: "https://www.linkedin.com/in/nikunj-raikundliya-5a37092a2/",
@@ -523,7 +556,7 @@ export const pubs = [
   {
     Email: "maheshwarikanishk2005@gmail.com",
     Name: "Kanishk Maheshwari",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/KanishkMaheshwari.png",
     Position: "Publicity Co-Com",
     Github: "https://github.com/KanishkkM",
     LinkedIn:
@@ -534,6 +567,7 @@ export const pubs = [
   {
     Email: "neelparekh2004@gmail.com",
     Name: "Neel Parekh",
+    // No Image
     Image: "./src/components/Card/images/Prachi.png",
     Position: "Publicity Co-Com",
     Github: "https://github.com/Neel2004",
@@ -544,7 +578,7 @@ export const pubs = [
   {
     Email: "abhinavnair7404@gmail.com",
     Name: "Abhinav Nair",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/AbhinavNair.png",
     Position: "Publicity Co-Com",
     Github: "https://github.com/Nair-Abhinav",
     LinkedIn: "http://www.linkedin.com/in/abhinav-nair-0165a3292",
@@ -554,6 +588,7 @@ export const pubs = [
   {
     Email: "rutvipina179@gmail.com",
     Name: "Rutvi Patel",
+    // No image
     Image: "./src/components/Card/images/Prachi.png",
     Position: "Publicity Co-Com",
     Github: "",
@@ -563,7 +598,7 @@ export const pubs = [
   {
     Email: "bagadiatanish@gmail.com",
     Name: "Tanish Bagadia",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/TanishBagadia.png",
     Position: "Publicity Co-Com",
     Github: "",
     LinkedIn: "https://www.linkedin.com/in/tanish-bagadia-4107a6258",
@@ -575,7 +610,7 @@ export const logi = [
   {
     Email: "kashvirita@gmail.com",
     Name: "Kashvi Rita",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/KashviRita.png",
     Position: "Logistics Co-Com",
     Github: "https://github.com/Kashvirita",
     LinkedIn:
@@ -586,7 +621,7 @@ export const logi = [
   {
     Email: "vanshm2703@gmail.com",
     Name: "Vansh Mehta",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/Vansh.png",
     Position: "Logistics Co-Com",
     Github: "https://github.com/vanshm2703",
     LinkedIn: "https://www.linkedin.com/in/vansh-mehta-b97b591b4/",
@@ -596,7 +631,7 @@ export const logi = [
   {
     Email: "yugtgupta@gmail.com",
     Name: "Yug Gupta ",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/YugGupta.png",
     Position: "Logistics Co-Com",
     Github: "https://github.com/Yugtgupta",
     LinkedIn:
@@ -607,7 +642,7 @@ export const logi = [
   {
     Email: "vinitsorathia16@gmail.com",
     Name: "Vinit Sorathia",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/VinitSorathia.png",
     Position: "Logistics Co-Com",
     Github: "https://github.com/Vinit-16",
     LinkedIn:
@@ -618,7 +653,7 @@ export const logi = [
   {
     Email: "ramrampalan@gmail.com",
     Name: "Ram Palan",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/RAM.png",
     Position: "Logistics Co-Com",
     Github: "https://github.com/PremPalan",
     LinkedIn:
@@ -631,7 +666,7 @@ export const creatives = [
   {
     Email: "harsorasagar04@gmail.com",
     Name: "Sagar Harsora",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/Sagarharsora.png",
     Position: "Creatives Co-Com",
     Github: "https://github.com/sagarr",
     LinkedIn: "https://www.linkedin.com/in/sagarrh/",
@@ -641,7 +676,7 @@ export const creatives = [
   {
     Email: "shriyapd26@gmail.com",
     Name: "Shriya Deshpande",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/ShriyaDeshpande.png",
     Position: "Creatives Co-Com",
     Github: "https://github.com/dashboard",
     LinkedIn:
@@ -652,7 +687,7 @@ export const creatives = [
   {
     Email: "mehtaarchie25@gmail.com",
     Name: "Archie Mehta",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/ArchieMehta.png",
     Position: "Creatives Co-Com",
     Github: "",
     LinkedIn:
@@ -663,7 +698,7 @@ export const creatives = [
   {
     Email: "kashvism100@gmail.com",
     Name: "Kashvi Mahetaliya",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/Kashvi.png",
     Position: "Creatives Co-Com",
     Github: "https://github.com/Kashvi-M",
     LinkedIn:
@@ -674,7 +709,7 @@ export const creatives = [
   {
     Email: "aryansharmaaru1109@gmail.com",
     Name: "Aryan Sharma",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/AryanSharma.png",
     Position: "Creatives Co-Com",
     Github: "",
     LinkedIn:
@@ -685,7 +720,7 @@ export const creatives = [
   {
     Email: "sakshigoda12@gmail.com",
     Name: "Sakshi Goda",
-    Image: "./src/components/Card/images/Prachi.png",
+    Image: "./src/components/Card/images/SakshiGoda.png",
     Position: "Creatives Co-Com",
     Github: "https://github.com/Sakshigoda",
     LinkedIn:

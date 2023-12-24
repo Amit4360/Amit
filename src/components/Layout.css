@@ -44,7 +44,7 @@
 
 #nav{
     position: absolute;
-    transform: translateY(-260px);
+    transform: translateY(-730px);
     text-transform: uppercase;
     list-style-type: none;
     display: flex;
@@ -60,6 +60,7 @@
 #nav a{
     font-weight: 700;
 }
+
 
 #nav a:hover{
     box-shadow: 0px 0px 60px #1f4c65;

@@ -48,7 +48,7 @@
     display: none;
   }
 
-  .quote,
+  .email,
   .sizes-box {
     visibility: hidden;
   }
@@ -102,11 +102,11 @@
   color: rgb(187, 187, 187);
 }
 
-.quote {
+.email {
   margin-bottom: 12px;
   color: black;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 500;
   text-shadow: -0.25px 0.25px 0.25px rgb(194, 62, 227)
 }
 
@@ -124,7 +124,7 @@
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
 
-  .quote,
+  .email,
   .sizes-box {
     visibility: visible;
   }
@@ -170,7 +170,7 @@
   .pos {
     font-weight: 500;
   }
-  .quote {
+  .email {
     margin-bottom: 9px;
     font-size: 15px;
     font-weight: 700;
@@ -217,7 +217,7 @@
   .pos {
     font-weight: 500;
   }
-  .quote {
+  .eamil {
     margin-bottom: 9px;
     font-size: 15px;
     font-weight: 700;
